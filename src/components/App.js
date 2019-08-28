@@ -6,15 +6,14 @@ import SongDetails from './SongDetails'
 const App=()=>{
     return(
         <div className="ui grid container">  
-        <div className="ui row">
-            <div className="column eight wide"> 
-                <Song />
-             </div>
-          
-        </div>
-                   
-     
-        {/* <SongDetails/> */}
+            <div className="ui row">
+                <div className="column eight wide"> 
+                    <Song />
+                </div>
+                <div className="column eight wide">
+                    <SongDetails/> 
+                </div>           
+            </div> 
         </div>
     )
 };
